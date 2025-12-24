@@ -40,6 +40,6 @@ This project explores two widely used **narrow-phase collision detection** algor
 - Red points show **world-space vertices** of convex meshes
 - Scene highlights **collision state detection** (no EPA / MTV extraction)
 
-  ---
+---
 
 
