@@ -19,14 +19,27 @@ This project explores two widely used **narrow-phase collision detection** algor
 
 ---
 
-## Project Screenshots from Unity
+## 📸 Project Screenshots from Unity
 
-#### SAT part
+#### 🔷 SAT / OBB (2D)
+
 <div align="left">
   <img src="Assets/Resources/obb-sat.png" width="900">  
 </div>
 
-#### GJK part
+- Cyan arrow represents the **Minimum Translation Vector (MTV)**
+- Red outlines indicate detected collisions between convex shapes
+
+
+#### 🧊 GJK (3D)
+
 <div align="left">
   <img src="Assets/Resources/gjk.png" width="900">  
 </div>
+
+- Red points show **world-space vertices** of convex meshes
+- Scene highlights **collision state detection** (no EPA / MTV extraction)
+
+  ---
+
+
