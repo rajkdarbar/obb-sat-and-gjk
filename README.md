@@ -1,4 +1,4 @@
-## 🧩 Narrow-Phase Collision Detection (SAT & GJK)
+# 🧩 Narrow-Phase Collision Detection (SAT & GJK)
 
 This project explores two widely used **narrow-phase collision detection** algorithms in computer graphics and game engines.
 
@@ -16,3 +16,17 @@ This project explores two widely used **narrow-phase collision detection** algor
 - **SAT** visualizes the **Minimum Translation Vector (MTV)** to show penetration depth and resolution direction.
 - **GJK** visualizes only **collision states and world-space vertices** of convex shapes  
   *(MTV extraction via EPA is not implemented.)*
+
+---
+
+## Project Screenshots from Unity
+
+#### SAT part
+<div align="left">
+  <img src="Assets/Resources/obb-sat.png" width="600">  
+</div>
+
+#### GJK part
+<div align="left">
+  <img src="Assets/Resources/gjk.png" width="600">  
+</div>
