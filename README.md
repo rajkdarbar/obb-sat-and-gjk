@@ -8,9 +8,8 @@ This project explores two widely used narrow-phase collision detection algorithm
 - **GJK (3D)** – Collision detection between arbitrary convex 3D shapes.  
   *(Gilbert–Johnson–Keerthi algorithm)*
 
-
 #### 🧠 Design Notes
-- SAT (2D) operates on oriented bounding boxes and convex polygons.
+- SAT operates on oriented bounding boxes and convex polygons.
 - SAT does not scale well to 3D, making it impractical for complex scenes.
 - GJK is preferred in 3D due to better scalability for convex collision detection.
 
@@ -30,7 +29,7 @@ This project explores two widely used narrow-phase collision detection algorithm
   <img src="Assets/Resources/obb-sat.png" width="900">  
 </div>
 
-- Cyan arrow represents the Minimum Translation Vector (MTV)
+- Cyan arrow represents MTV
 - Red outlines indicate detected collisions between convex shapes
 
 
@@ -41,7 +40,7 @@ This project explores two widely used narrow-phase collision detection algorithm
 </div>
 
 - Red points show world-space vertices of convex meshes
-- Scene highlights collision state detection (no EPA / MTV extraction)
+- Scene highlights collision state detection (no EPA or MTV extraction)
 
 ---
 
