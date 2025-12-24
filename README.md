@@ -3,8 +3,11 @@
 This project explores two widely used **narrow-phase collision detection** algorithms in computer graphics and game engines.
 
 #### ⚙️ Algorithms
-- **SAT / OBB (2D)** – Collision detection and penetration resolution for oriented 2D shapes using the **Separating Axis Theorem**.
-- **GJK (3D)** – Collision detection between arbitrary **convex 3D shapes** using the **Gilbert–Johnson–Keerthi algorithm**.
+- **SAT / OBB (2D)** – Collision detection and penetration resolution for oriented 2D shapes.  
+  *(Separating Axis Theorem)*
+- **GJK (3D)** – Collision detection between arbitrary convex 3D shapes.  
+  *(Gilbert–Johnson–Keerthi algorithm)*
+
 
 #### 🧠 Design Notes
 - **SAT (2D)** operates on oriented bounding boxes and convex polygons.
