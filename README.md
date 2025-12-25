@@ -1,4 +1,4 @@
-# 🧩 Narrow-Phase Collision Detection (SAT & GJK)
+# 🧩 Narrow-Phase Collision Detection
 
 This project explores two widely used narrow-phase discrete collision detection algorithms in computer graphics and game engines.
 
